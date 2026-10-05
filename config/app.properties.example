@@ -1,0 +1,6 @@
+# Copy this file to config/app.properties before first run.
+# If aes.key.base64 is left blank, a new random 256-bit key is generated and written
+# into app.properties on first run. Keep that file secret; never commit it.
+aes.algorithm=AES/GCM/NoPadding
+aes.key.base64=
+encrypt.folder=E\:\\restore_test\\encrypt

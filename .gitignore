@@ -1,0 +1,15 @@
+# Secret: AES key. Never commit. Copy config/app.properties.example instead.
+config/app.properties
+
+# Build output
+target/
+
+# Runtime data folders (plaintext originals and encrypted output)
+encrypt/
+_originals/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+Thumbs.db
